@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    /* color: black; */
+}
+
+nav{
+    background-color: #673AB7;
+    height: 50vh;
+    color: #FAFAFA;
+}
+
+.search-bar input{
+    margin: 1.4em 1.4em;
+    padding: .6em .6em;
+    border: 1px solid #FAFAFA;
+    border-radius: 20px;
+}
+
+.left-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    bottom: 4.8em;
+}
+
+.svg-pic{
+    margin: 1em 3em;
+}
+.svg-pic2{
+    margin: 1em 3em;
+}
+
+.name{
+    margin: 1em 4em;
+}
+
+.top-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2em;
+}
+
+.top-lower > h3{
+    font-size: 1.4em;
+}
+
+.btn-container{
+    border: 2px solid #FAFAFA;
+    padding: .4em .3em;
+    border-radius: 10px;
+    
+}
+
+.side-btns button{
+    padding: .2em .6em;
+    background-color: #FAFAFA;
+    border: 1px solid #FAFAFA;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #673AB7;
+}
+
+.table-header{
+    margin: 0 18em;
+}
+
+.table{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    overflow: hidden;
+    font-weight: bold;
+    color: #673AB7;
+}
+
+.table thead th{
+    background: #673AB7;
+    color: #FAFAFA;
+}
+
+.table td,
+.table th{
+    padding: 10px 20px;
+}
+
+.table tbody tr:nth-of-type(even){
+    background: #FAFAFA;
+}
+
+.table tbody tr:last-of-type(){
+    border-bottom: 2px solid #673AB7;
+}
