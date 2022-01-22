@@ -82,7 +82,9 @@ nav{
     color: #673AB7;
 }
 
-.table
+.table-header h4{
+    color: #673AB7;
+}
 
 .table thead th{
     background: #673AB7;
